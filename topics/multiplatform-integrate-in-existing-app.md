@@ -447,7 +447,7 @@ This is the name of the framework that Kotlin Multiplatform builds for the iOS a
 
 To test the integration, add a call to common code in Swift code:
 
-1. In IntelliJ IDEA, open the `iosApp/simpleloginIOS/ContentView.swift` file and import the framework:
+1. In Android Studio, open the `iosApp/simpleloginIOS/ContentView.swift` file and import the framework:
 
    ```swift
    import sharedKit
@@ -465,7 +465,7 @@ To test the integration, add a call to common code in Swift code:
    }
    ```
 
-3. Run the app using the IntelliJ IDEA iOS run configuration to see the result:
+3. Run the app using the Android Studio iOS run configuration to see the result:
 
    ![Greeting from the shared module](xcode-iphone-hello.png){width=300}
 
@@ -523,7 +523,7 @@ and iOS.
    }
    ```
 
-2. Run both the iOS and Android applications from IntelliJ IDEA to see the changes:
+2. Run both the iOS and Android applications from Android Studio to see the changes:
 
    ![Android and iOS applications password error](android-iphone-password-error.png){width=600}
 
