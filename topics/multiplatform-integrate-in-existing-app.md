@@ -431,7 +431,7 @@ Once you've made sure that Xcode is set up correctly, return to Android Studio:
 
 1. Select **File | Sync Project with Gradle Files** in the main menu.
 
-   IntelliJ IDEA automatically generates a run configuration called **simpleLoginIOS** and marks the `iosApp`
+   Android Studio automatically generates a run configuration called **simpleLoginIOS** and marks the `iosApp`
    directory as a linked Xcode project.
 
 2. In the list of run configurations, select **simpleLoginIOS**.
